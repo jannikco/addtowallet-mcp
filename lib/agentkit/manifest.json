@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-addtowallet",
+      "description": "Connect AI agents to AddToWallet using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-addtowallet/SKILL.md": "9a85b3982be1a188aeb8fee0757ecaa74816d6cdfd3742e7bb478e1a4e9e22c1"
+  }
+}
