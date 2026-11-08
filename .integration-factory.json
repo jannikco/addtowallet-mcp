@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "6ee14c24b14083993d148b76640fb3bd227cf7d322379c2dad75c3e2c83b8227",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://app.addtowallet.co/api-docs"
+  ],
+  "id": "addtowallet-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AddToWallet MCP setup and connection checker",
+  "description": "Generate AddToWallet MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "addtowallet",
+  "appName": "AddToWallet",
+  "providerDocs": "https://app.addtowallet.co/api-docs",
+  "providerWebsite": "https://addtowallet.co/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://app.addtowallet.co/api-docs/direct-api/authentication",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-addtowallet-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
